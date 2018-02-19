@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test Login Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "keywords": [],
+  "author": "Constantine Caviris",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.12",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.10.2"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
